@@ -14,3 +14,13 @@ function fibonacci(num) {
 }
 
 fibonacci(20);
+
+function poweroftwo(n) {
+    if (n % 2 == 0) {
+        console.log("Is power of two");
+    } else {
+        console.log("is'nt power of two");
+    }
+}
+
+poweroftwo(2);
